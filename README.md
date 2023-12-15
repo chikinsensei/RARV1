@@ -3,22 +3,22 @@
 Groupe Thomas, Hadrien, Clémence
 
 ## Tâches Réalisées
-
+Note : Comme certaines tâches ont dû être faite dans le workshop, elles ont en théorie étaient faites par tout le monde (notamment les FP1), mais seule la version la plus complète et avancée a été conversé.
 ### FP 1
-FP1 – 1 : Un menu d’accueil permet de choisir le mode de l’application (Visite, Editeur)<br>
-FP1 – 2 : La pièce et ses éléments possèdent des colliders<br>
-FP1 – 3 : Le joueur peut se déplacer pour visiter la scène en vue à la première personne<br>
-FP1 – 4 : Il est possible de créer de nouveaux points d’intérêts au sein de l’éditeur<br>
-FP1 – 5 : Les informations des points d’intérêts sont enregistrées dans un fichier<br>
-FP1 – 6 : Les points d’intérêts sont visibles au sein de la visite<br>
-FP1 – 7 : Interagir avec un point d’intérêt au sein de la visite affiche un texte tiré du JSON<br>
-FP1 – 11 : L’application est compilée<br>
+FP1 – 1 : Un menu d’accueil permet de choisir le mode de l’application (Visite, Editeur). <i>Thomas</i><br>
+FP1 – 2 : La pièce et ses éléments possèdent des colliders. <i>Thomas</i><br>
+FP1 – 3 : Le joueur peut se déplacer pour visiter la scène en vue à la première personne. <i>Thomas</i><br>
+FP1 – 4 : Il est possible de créer de nouveaux points d’intérêts au sein de l’éditeur. <i>Thomas</i><br>
+FP1 – 5 : Les informations des points d’intérêts sont enregistrées dans un fichier. <i>Thomas</i><br>
+FP1 – 6 : Les points d’intérêts sont visibles au sein de la visite. <i>Thomas</i><br>
+FP1 – 7 : Interagir avec un point d’intérêt au sein de la visite affiche un texte tiré du JSON. <i>Thomas</i><br>
+FP1 – 11 : L’application est compilée. <i>Thomas</i><br>
 <br>
 ### FP2
-FP 2 – 8 : Les portes s’ouvrent devant le joueur<br>
-FP 2 – 9 : Les portes émettent un bruit lorsqu’elles s’ouvrent et se ferment.<br>
-FP 2 – 12 : Les points d’intérêt attirent l’œil.<br>
-FP 2-10 : La lumière est retravaillée<br>
+FP 2 – 8 : Les portes s’ouvrent devant le joueur. <i>Clémence</i><br>
+FP 2 – 9 : Les portes émettent un bruit lorsqu’elles s’ouvrent et se ferment. <i>Clémence</i><br>
+FP 2 – 12 : Les points d’intérêt attirent l’œil. <i>Thomas</i><br>
+FP 2-10 : La lumière est retravaillée. <i>Thomas</i><br>
 <br>
 ## Tâches restantes
 ### FP 1
