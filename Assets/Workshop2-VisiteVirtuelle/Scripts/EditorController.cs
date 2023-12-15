@@ -15,7 +15,6 @@ public class EditorController : MonoBehaviour
 		if (Physics.Raycast(cameraTransform.position, cameraTransform.forward, out hit, 2, ~LayerMask.NameToLayer("POI")))
 		{
 			var poi = hit.collider.gameObject.GetComponent<PointOfInterest>();
-			Debug.Log(poi);
 			EditorManager.DisplayPOI(poi.PointOfInterestData);
 		}
 	}

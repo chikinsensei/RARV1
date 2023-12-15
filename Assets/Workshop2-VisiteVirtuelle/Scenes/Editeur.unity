@@ -208,8 +208,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 646109296}
-        m_TargetAssemblyTypeName: EditorManager, Assembly-CSharp
+      - m_Target: {fileID: 646109298}
+        m_TargetAssemblyTypeName: WorkshopManager, Assembly-CSharp
         m_MethodName: HidePOI
         m_Mode: 1
         m_Arguments:
@@ -1280,7 +1280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 646109297}
-  - component: {fileID: 646109296}
+  - component: {fileID: 646109298}
   m_Layer: 0
   m_Name: EditorManager
   m_TagString: Untagged
@@ -1288,23 +1288,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &646109296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646109294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbdddc8d44901e54984bc4d855caabdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Window: {fileID: 1248870788}
-  PointOfInterestPrefab: {fileID: 6882619413294709044, guid: d7986953379ab014ba30c0532d31c540,
-    type: 3}
-  ConfigFileName: Configuration.json
-  Player: {fileID: 2411421651244322066}
 --- !u!4 &646109297
 Transform:
   m_ObjectHideFlags: 0
@@ -1321,6 +1304,23 @@ Transform:
   - {fileID: 2046928645}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &646109298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646109294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdddc8d44901e54984bc4d855caabdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Window: {fileID: 1248870788}
+  PointOfInterestPrefab: {fileID: 6882619413294709044, guid: d7986953379ab014ba30c0532d31c540,
+    type: 3}
+  ConfigFileName: Configuration.json
+  Player: {fileID: 2411421651244322066}
 --- !u!1 &723097151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1960,7 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b1ede07b60e8124c9873746ba66b543, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EditorManager: {fileID: 646109296}
+  EditorManager: {fileID: 646109298}
   TitleInputField: {fileID: 280235201}
   ContentTextField: {fileID: 810687692}
 --- !u!1 &1348332467
@@ -2192,8 +2192,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 646109296}
-        m_TargetAssemblyTypeName: EditorManager, Assembly-CSharp
+      - m_Target: {fileID: 646109298}
+        m_TargetAssemblyTypeName: WorkshopManager, Assembly-CSharp
         m_MethodName: HidePOI
         m_Mode: 1
         m_Arguments:
@@ -2337,8 +2337,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 646109296}
-        m_TargetAssemblyTypeName: EditorManager, Assembly-CSharp
+      - m_Target: {fileID: 646109298}
+        m_TargetAssemblyTypeName: WorkshopManager, Assembly-CSharp
         m_MethodName: HidePOI
         m_Mode: 1
         m_Arguments:
@@ -3086,7 +3086,7 @@ PrefabInstance:
         type: 3}
       propertyPath: EditorManager
       value: 
-      objectReference: {fileID: 646109296}
+      objectReference: {fileID: 646109298}
     - target: {fileID: 8827693978029426825, guid: c6d8e4f3fc3e4f040951177341173646,
         type: 3}
       propertyPath: m_LocalPosition.x

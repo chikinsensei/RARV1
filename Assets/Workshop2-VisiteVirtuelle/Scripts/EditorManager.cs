@@ -12,6 +12,13 @@ public class EditorManager : WorkshopManager
 {
 	int _currentID = 0;
 
+	private void Start()
+	{
+		path = Application.streamingAssetsPath + "/" + ConfigFileName;
+		LoadScene();
+		_currentID = _pointOfInterestList.Last<PointOfInterest>().PointOfInterestData.Id +1;
+	}
+
 	public void CreateNewPointOfInterest(Vector3 playerPos, Vector3 playerRotation)
 	{
 		var poiPosition = playerPos + (playerRotation);

@@ -21,7 +21,6 @@ public class EditorWindow : WorkshopWindow
 	{
 		_poiInfo.Title = TitleInputField.text;
 		_poiInfo.Description = ContentTextField.text;
-
 		EditorManager.SavePointOfInterest(_poiInfo);
 	}
 
