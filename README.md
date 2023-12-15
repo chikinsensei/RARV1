@@ -31,5 +31,5 @@ FP 2 – 4 : Le joueur peut demander au MIR100 de suivre son trajet automatiquem
 FP2 – 5 : Il est possible de déplacer les éléments de la scène dans l’éditeur.<br>
 FP2 – 6 : La position des objets est enregistrée dans le fichier JSON de la scène.<br>
 FP2 - 7 : La position des objets est chargée depuis le JSON de la scène<br>
-FP 2 – 10 : Appuyer sur un interrupteur allume et/ou éteint des lampes<br>
+FP 2 – 10 : Appuyer sur un interrupteur allume et/ou éteint des lampes. <strong>Il passer la lumière en temps réel pour quelle soit dynamique, mais rip les performances</strong><br>
 FP 2 – 11 : Visualisation de la météo<br>
