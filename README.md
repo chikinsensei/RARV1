@@ -19,6 +19,7 @@ FP 2 – 8 : Les portes s’ouvrent devant le joueur. <i>Clémence</i><br>
 FP 2 – 9 : Les portes émettent un bruit lorsqu’elles s’ouvrent et se ferment. <i>Clémence</i><br>
 FP 2 – 12 : Les points d’intérêt attirent l’œil. <i>Thomas</i><br>
 FP 2-10 : La lumière est retravaillée. <i>Thomas</i><br>
+FP 2 – 4 : Le joueur peut demander au MIR100 de suivre son trajet automatiquement <i>Hadrien</i> <br> 
 <br>
 ## Tâches restantes
 ### FP 1
